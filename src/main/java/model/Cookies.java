@@ -1,6 +1,6 @@
-package parser;
+package model;
 
-public class Headers {
+public class Cookies {
     public String name;
     public String value;
 }

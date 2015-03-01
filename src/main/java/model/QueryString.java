@@ -1,4 +1,4 @@
-package parser;
+package model;
 
 public class QueryString {
     public String name;

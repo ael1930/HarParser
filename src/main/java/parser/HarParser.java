@@ -1,6 +1,7 @@
 package parser;
 
 import com.google.gson.Gson;
+import model.Har;
 
 public class HarParser {
 

@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf1eea0f-a3cb-461c-a74f-4765b99ff879" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Browser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Cache.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Content.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Cookies.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Entries.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Headers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/PageTimings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/QueryString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Request.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Response.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/parser/Timings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/Log.java" afterPath="$PROJECT_DIR$/src/main/java/parser/Log.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/Pages.java" afterPath="$PROJECT_DIR$/src/main/java/parser/Pages.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/www.autotrader.co.uk.150213_WQ_13XX.har" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Browser.java" afterPath="$PROJECT_DIR$/src/main/java/model/Browser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Cache.java" afterPath="$PROJECT_DIR$/src/main/java/model/Cache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Content.java" afterPath="$PROJECT_DIR$/src/main/java/model/Content.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Cookies.java" afterPath="$PROJECT_DIR$/src/main/java/model/Cookies.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Creator.java" afterPath="$PROJECT_DIR$/src/main/java/model/Creator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Entries.java" afterPath="$PROJECT_DIR$/src/main/java/model/Entries.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Har.java" afterPath="$PROJECT_DIR$/src/main/java/model/Har.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Headers.java" afterPath="$PROJECT_DIR$/src/main/java/model/Headers.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Log.java" afterPath="$PROJECT_DIR$/src/main/java/model/Log.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/PageTimings.java" afterPath="$PROJECT_DIR$/src/main/java/model/PageTimings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Pages.java" afterPath="$PROJECT_DIR$/src/main/java/model/Pages.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/QueryString.java" afterPath="$PROJECT_DIR$/src/main/java/model/QueryString.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Request.java" afterPath="$PROJECT_DIR$/src/main/java/model/Request.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Response.java" afterPath="$PROJECT_DIR$/src/main/java/model/Response.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/parser/Timings.java" afterPath="$PROJECT_DIR$/src/main/java/model/Timings.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/parser/HarParser.java" afterPath="$PROJECT_DIR$/src/main/java/parser/HarParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/HarParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/HarParserTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HarParser.iws" />
@@ -39,7 +45,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="Entries.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Entries.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Entries.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1065">
               <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
@@ -49,7 +55,7 @@
         </entry>
       </file>
       <file leaf-file-name="Timings.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Timings.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Timings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
@@ -72,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="Pages.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Pages.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Pages.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1140">
               <caret line="67" column="32" selection-start-line="29" selection-start-column="3" selection-end-line="67" selection-end-column="32" />
@@ -84,8 +90,8 @@
       <file leaf-file-name="HarParserTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HarParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="506">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.74110675" vertical-offset="0" max-vertical-offset="506">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,7 +100,7 @@
         </entry>
       </file>
       <file leaf-file-name="Cache.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Cache.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Cache.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -104,40 +110,30 @@
         </entry>
       </file>
       <file leaf-file-name="Response.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Response.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Response.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Content.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Content.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Request.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Cookies.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/parser/Cookies.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Cookies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryString.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/QueryString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -412,16 +408,16 @@
         <option value="$PROJECT_DIR$/src/main/java/parser/Log.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/PageTimings.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Browser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/Cookies.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Headers.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/parser/QueryString.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Content.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Cache.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Timings.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Pages.java" />
         <option value="$PROJECT_DIR$/src/main/java/parser/Entries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/Cookies.java" />
+        <option value="$PROJECT_DIR$/src/main/java/parser/QueryString.java" />
         <option value="$PROJECT_DIR$/src/test/java/HarParserTest.java" />
       </list>
     </option>
@@ -564,6 +560,32 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HarParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HarParser" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -594,8 +616,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="parser" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="model" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.HarParserTest.test">
@@ -873,7 +901,7 @@
       <created>1425162440942</created>
       <updated>1425162440942</updated>
       <workItem from="1425162443850" duration="819000" />
-      <workItem from="1425163401033" duration="8718000" />
+      <workItem from="1425163401033" duration="9257000" />
     </task>
     <task id="LOCAL-00001" summary="added Gson to project and created a sample parser">
       <created>1425163649840</created>
@@ -887,11 +915,19 @@
       <created>1425169530042</created>
       <updated>1425169530042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Will now pass all the data from a har file taken from webpagetest.org">
+      <created>1425221817824</created>
+      <updated>1425221817824</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added afew extra attributes to Cookie and QueryString">
+      <created>1425221918980</created>
+      <updated>1425221918980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9537000" />
+    <option name="totallyTimeSpent" value="10076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -943,7 +979,9 @@
     </option>
     <MESSAGE value="added Gson to project and created a sample parser" />
     <MESSAGE value="Parses part of the har file and returns a Har object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parses part of the har file and returns a Har object" />
+    <MESSAGE value="Will now pass all the data from a har file taken from webpagetest.org" />
+    <MESSAGE value="Added afew extra attributes to Cookie and QueryString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added afew extra attributes to Cookie and QueryString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,8 +1005,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="255">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,15 +1043,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Har.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Har.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
           <folding>
-            <element signature="e#110#111#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1031,13 +1069,13 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Creator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Creator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1045,7 +1083,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
@@ -1053,7 +1091,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/PageTimings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/PageTimings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
@@ -1061,7 +1099,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Browser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Browser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
@@ -1069,7 +1107,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Headers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Headers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
@@ -1077,15 +1115,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/QueryString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Content.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Content.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -1093,7 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Request.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Request.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="41" />
@@ -1101,7 +1131,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Response.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1109,7 +1139,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Cache.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1117,18 +1147,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Timings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Timings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Cookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1144,7 +1166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Pages.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Pages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="618" max-vertical-offset="1140">
           <caret line="67" column="32" selection-start-line="29" selection-start-column="3" selection-end-line="67" selection-end-column="32" />
@@ -1152,7 +1174,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/parser/Entries.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Entries.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1065">
           <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
@@ -1160,10 +1182,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Cookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/www.autotrader.co.uk.150213_WQ_13XX.har">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/QueryString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HarParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6818182" vertical-offset="0" max-vertical-offset="506">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.74110675" vertical-offset="0" max-vertical-offset="506">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
