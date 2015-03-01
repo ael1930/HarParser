@@ -18,9 +18,9 @@ public class HarParserTest {
         URL url = Resources.getResource("www.autotrader.co.uk.150213_WQ_13XX.har");
         String text = Resources.toString(url, Charsets.UTF_8);
         final Har har = parser.parseHar(text);
-        assertThat(har.getLog().version, is("1.1"));
-        assertThat(har.getLog().creator.name, is("WebPagetest"));
-        assertThat(har.getLog().pages.get(0)._SpeedIndex, is(1611));
+        assertThat(har.log.version, is("1.1"));
+        assertThat(har.log.creator.name, is("WebPagetest"));
+        assertThat(har.log.pages.get(0)._SpeedIndex, is(1611));
     }
 
 }
